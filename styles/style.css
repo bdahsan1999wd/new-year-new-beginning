@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+/* ----------Google Icons---------- */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
 body {
   border: 5px solid orangered;
   font-family: "Work Sans", serif;
@@ -46,6 +51,7 @@ header {
 .header-text p {
   font-size: 16px;
   font-weight: 400;
+  line-height: 26px;
   color: rgb(68, 67, 67);
   margin-bottom: 32px;
 }
@@ -61,4 +67,70 @@ header {
   color: rgb(255, 255, 255);
   border: none;
   cursor: pointer;
+}
+
+/* ----------Failures Section Styles---------- */
+.failures-section {
+  border: 10px solid goldenrod;
+  width: 1072px;
+  height: 723.3px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px;
+}
+
+/* ----- Image Styles ----- */
+.failures-section-image {
+  border: 2px solid orchid;
+  width: 569px;
+  height: 723.3px;
+}
+.failures-section-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ----- Text Styles ----- */
+
+.failures-section-text-container {
+  border: 2px solid seagreen;
+  width: 416px;
+  height: 400px;
+}
+
+.failures-section-text-container h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  color: rgb(21, 20, 20);
+}
+
+.failures-section-text-container p {
+  color: rgb(68, 67, 67);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.failures-section-text-container h6 {
+  color: rgb(68, 67, 67);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+
+/* ----------Check Symbol Styles---------- */
+h6 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.material-symbols-outlined {
+  font-size: 20px;
+  color: rgb(22, 216, 135);
 }
