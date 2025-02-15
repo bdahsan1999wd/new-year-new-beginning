@@ -1,10 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 /* font-family: "Work Sans", serif; */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  border: 5px solid orangered;
   font-family: "Work Sans", serif;
 }
 
-h1 {
-  text-align: center;
+/* ----------Heading Section Styles---------- */
+header {
+  border: 10px solid rgb(47, 0, 255);
+  max-width: 1600px;
+  height: 809px;
+  margin: 0 auto;
+  background-image: url(../images/banner/banner2.png);
+  margin-bottom: 130px;
+}
+
+/* -----Banner Text Styles----- */
+.header-text-container {
+  display: flex;
+}
+
+.header-text {
+  border: 5px solid rebeccapurple;
+  margin: 216px 230px 365px 845px;
+  width: 525px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
+}
+
+.header-text h1 {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: rgb(21, 20, 20);
+}
+
+.header-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(68, 67, 67);
+  margin-bottom: 32px;
+}
+
+/* -----Button Styles----- */
+.header-text button {
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: rgb(241, 91, 34);
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
 }
