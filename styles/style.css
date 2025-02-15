@@ -134,3 +134,52 @@ h6 {
   font-size: 20px;
   color: rgb(22, 216, 135);
 }
+
+/* ----------my-plans-section styles---------- */
+
+.my-plans-section {
+  border: 10px solid red;
+  width: 1140px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+.my-plans-section h3 {
+  border: 2px solid olivedrab;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(21, 20, 20);
+}
+
+/* ----- my plans container styles ----- */
+.my-plans-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/* -----my plans card styles----- */
+.my-plans-card {
+  border: 2px solid orangered;
+  width: 240px;
+  height: 200px;
+  text-align: center;
+}
+
+/* -----card text styles----- */
+.my-plans-card h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(21, 20, 20);
+  margin-top: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  white-space: nowrap;
+}
+
+.my-plans-card p {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(115, 114, 114);
+}
