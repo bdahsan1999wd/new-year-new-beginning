@@ -1,3 +1,4 @@
+/* ----------Google Fonts Added---------- */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 /* font-family: "Work Sans", serif; */
 
@@ -6,19 +7,17 @@
   padding: 0;
 }
 
-/* ----------Google Icons---------- */
+/* ----------Google Icons Added---------- */
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
 body {
-  border: 5px solid orangered;
   font-family: "Work Sans", serif;
 }
 
 /* ----------Heading Section Styles---------- */
 header {
-  border: 10px solid rgb(47, 0, 255);
   max-width: 1600px;
   height: 809px;
   margin: 0 auto;
@@ -32,7 +31,6 @@ header {
 }
 
 .header-text {
-  border: 5px solid rebeccapurple;
   margin: 216px 230px 365px 845px;
   width: 525px;
   display: flex;
@@ -71,7 +69,6 @@ header {
 
 /* ----------Failures Section Styles---------- */
 .failures-section {
-  border: 10px solid goldenrod;
   width: 1072px;
   height: 723.3px;
   margin: 0 auto;
@@ -83,7 +80,6 @@ header {
 
 /* ----- Image Styles ----- */
 .failures-section-image {
-  border: 2px solid orchid;
   width: 569px;
   height: 723.3px;
 }
@@ -95,7 +91,6 @@ header {
 /* ----- Text Styles ----- */
 
 .failures-section-text-container {
-  border: 2px solid seagreen;
   width: 416px;
   height: 400px;
 }
@@ -138,14 +133,12 @@ h6 {
 /* ----------my-plans-section styles---------- */
 
 .my-plans-section {
-  border: 10px solid red;
   width: 1140px;
   height: 300px;
   margin: 0 auto;
   margin-bottom: 130px;
 }
 .my-plans-section h3 {
-  border: 2px solid olivedrab;
   text-align: center;
   font-size: 40px;
   font-weight: 700;
@@ -161,7 +154,6 @@ h6 {
 
 /* -----my plans card styles----- */
 .my-plans-card {
-  border: 2px solid orangered;
   width: 240px;
   height: 200px;
   text-align: center;
@@ -186,7 +178,6 @@ h6 {
 
 /* ---------- Contact Section Styles ---------- */
 .contact-section {
-  border: 10px solid green;
   position: relative;
   background: url(../images/watch.png) no-repeat center/cover;
   width: 100%;
@@ -239,7 +230,6 @@ h6 {
 
 /* ----------footer section styles---------- */
 .footer-section {
-  border: 10px solid rgb(47, 0, 255);
   width: 1600px;
   height: 577px;
   margin: 0 auto;
@@ -251,7 +241,6 @@ h6 {
 
 /* -----footer text styles----- */
 .footer-text {
-  border: 5px solid rgb(9, 255, 0);
   width: 485px;
   height: 317px;
 }
@@ -284,7 +273,6 @@ h6 {
 }
 /* -----email subscription input field styles----- */
 .email-subscription {
-  border: 5px solid rgb(255, 0, 191);
   width: 325px;
   height: 204px;
 }
