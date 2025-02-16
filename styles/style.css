@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 /* font-family: "Work Sans", serif; */
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -284,8 +288,8 @@ h6 {
   margin-bottom: 31px;
 }
 
-/* Input field styles */
-input[type="email"] {
+/* -----Input field styles----- */
+.email {
   width: 325px;
   height: 64px;
   border-radius: 8px;
@@ -297,15 +301,32 @@ input[type="email"] {
   border: 1px solid gray;
 }
 
-/* Button styles */
-button[type="submit"] {
+/* -----Button styles for anchor tag----- */
+.btn {
+  display: inline-block;
   width: 170px;
   height: 64px;
+  line-height: 64px;
+  text-align: center;
   border-radius: 8px;
   background: rgb(255, 255, 255);
   color: rgb(241, 91, 34);
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+  text-decoration: none;
   border: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* -----Hover effect----- */
+.btn:hover {
+  background-color: rgb(241, 91, 34);
+  color: rgb(255, 255, 255);
+  transform: scale(1.05);
+}
+
+/* -----:target style added----- */
+#failures-section:target {
+  border: 1px solid rgb(248, 248, 250);
 }
