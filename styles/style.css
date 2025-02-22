@@ -20,6 +20,27 @@ body {
   font-family: "Work Sans", serif;
 }
 
+/* ----------Dark Mode---------- */
+.dark-mode button {
+  width: 170px;
+  height: 64px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgb(83, 41, 24);
+  color: wheat;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.dark-mode {
+  background-color: #222222;
+  color: white;
+}
+
 /* ----------Heading Section Styles---------- */
 header {
   max-width: 1600px;
